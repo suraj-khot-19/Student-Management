@@ -23,4 +23,8 @@ public class StudentService {
 
         return list;
     }
+
+    public Student studentPathVariable(String s1,String s2) {
+        return new Student(s1,s2);
+    }
 }
