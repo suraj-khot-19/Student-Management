@@ -27,4 +27,8 @@ public class StudentService {
     public Student studentPathVariable(String s1,String s2) {
         return new Student(s1,s2);
     }
+
+    public Student queryReqParamStudent(String s1,String s2) {
+        return new Student(s1,s2);
+    }
 }
